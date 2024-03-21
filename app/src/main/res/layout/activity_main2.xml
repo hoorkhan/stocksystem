@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="right">
+<ImageView
+    android:id="@+id/edit"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_margin="10dp"
+    android:src="@drawable/edit"/>
+   <ImageView
+       android:id="@+id/delete"
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:layout_margin="10dp"
+       android:src="@drawable/delete"/>
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/post2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="20dp"
+    >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lap1">
+
+    </ImageView>
+<TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Stock#1"
+    android:textSize="20dp">
+
+</TextView>
+<TextView
+    android:id="@+id/Name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Lenovo"
+    android:textSize="28dp"
+    android:textStyle="normal">
+
+</TextView>
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sold"
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/specifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15.6 full HD WVA Display"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="normal">
+
+    </TextView>
+    <TextView
+        android:id="@+id/desiredprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.5 lac"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="normal">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/soldAt"
+        android:layout_marginTop="20dp"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="FEB 20, 2024" />
+
+    <TextView
+        android:id="@+id/updatedAt"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="FEB 20, 2024" />
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:text="FEB 20, 2024"
+        android:textColor="#474747" />
+</LinearLayout>
+
+
+
+</LinearLayout>
